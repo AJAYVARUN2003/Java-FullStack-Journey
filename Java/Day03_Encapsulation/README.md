@@ -9,32 +9,36 @@
 - Setter Methods
 - Validation
 - Real-world Examples
+- Stack Memory
+- Heap Memory
 
 ## Programs Completed
 
 - EmployeeDemo.java
 - BankAccountDemo.java
+- StudentDemo.java
 
 ## Key Learnings
-
-- Protected object data using the `private` keyword.
-- Used getters to access private variables.
-- Used setters to modify private variables.
-- Applied validation to prevent invalid data.
-- Understood the difference between `displayAccount()` and getter methods.
+- Used the `private` keyword to protect instance variables.
+- Understood the purpose of getter and setter methods.
+- Applied validation inside setter methods.
+- Learned the difference between Stack Memory and Heap Memory.
+- Understood that reference variables are stored in Stack Memory and objects are stored in Heap Memory.
 - Learned why encapsulation is important in real-world applications like Spring Boot.
 
 ## Interview Questions Practiced
 
-- What is encapsulation?
-- Difference between encapsulation and data hiding.
+- What is Encapsulation?
+- Why do we use private variables?
+- What is Data Hiding?
 - Why do we use getters and setters?
-- Why is validation important?
-- Why not make variables public?
+- Difference between getter and display method.
+- Stack Memory vs Heap Memory.
 
-## Mini Project
+## Mini Projects
 
 Bank Management System using Encapsulation.
+Student Management System using Encapsulation
 
 ### Concepts Used
 
