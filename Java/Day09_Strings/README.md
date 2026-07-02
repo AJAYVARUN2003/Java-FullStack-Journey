@@ -1,25 +1,46 @@
-# Day 9 - Strings
+## Day 9 - Strings in Java
 
 ## Topics Covered
 
+### String
 - String Class
-- String Object
 - String Pool
-- Heap Memory
-- == vs .equals()
+- Heap & Stack Memory
+- == vs equals()
 - String Immutability
-- StringBuilder
+
+### StringBuilder
 - append()
 - insert()
 - delete()
+- deleteCharAt()
+- setCharAt()
+- replace()
 - reverse()
+- charAt()
+- substring()
+- indexOf()
+- lastIndexOf()
+- length()
+- capacity()
+- ensureCapacity()
+- setLength()
+- trimToSize()
+- toString()
+
+### StringBuffer
+- Mutable
+- Thread-safe
+- Difference between StringBuilder and StringBuffer
 
 ## Programs
-
-1. AppendDemo.java
-2. InsertDemo.java
-3. DeleteDemo.java
-4. ReverseDemo.java
-5. Task1.java
-6. Task2.java
-7. ReplaceDemo.java (Coming Soon)
+- AppendDemo.java
+- InsertDemo.java
+- DeleteDemo.java
+- ReverseDemo.java
+- ReplaceDemo.java
+- StringBufferDemo.java
+- StringMethodsDemo.java
+- Task1.java
+- Task2.java
+- Task3.java
