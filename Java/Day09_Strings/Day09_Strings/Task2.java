@@ -1,12 +1,11 @@
 public class Task2{
     public static void main(String[] args){
-        StringBuilder sb=new StringBuilder("Jva");
-        sb.insert(1,"a");
-        sb.append(" Programming");
-        sb.replace(5,13,"Spring Boot");
-        sb.delete(10,14);
-        sb.reverse();
-        System.out.println(sb);
-
+        StringBuilder sb=new StringBuilder("Java Programming");
+        String result=sb.substring(5);
+        System.out.println(result);
+        System.out.println(sb.indexOf("Program"));
+        System.out.println(sb.length());
+        System.out.println(sb.capacity());
+        System.out.println(sb.lastIndexOf("Java"));
     }
 }
